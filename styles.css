@@ -1,0 +1,255 @@
+/* FUENTES DE GOOGLE*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto6display=swap');
+
+/* VARIABLES EN CSS */
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body
+{
+  background: #897acc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.contenedor
+{
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px #151516 ;
+
+}
+.contenedor .izquierda
+{
+   position: relative; 
+   background: #0c7077;
+   padding: 40px;
+}
+.contenedor .derecho
+{
+    position: relative;
+    background: #cfc1c1;
+    padding: 40px;
+
+}
+img
+{
+    
+    
+    border: 3px solid rgb(2, 2, 24);
+    max-width: 100%;
+    max-height: 100%;
+}
+.texto
+{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    
+
+}
+.texto h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 2px;
+}
+.texto h2 span
+{
+   font-size: 0.7em; 
+}
+.contacto
+{
+    padding-top: 30px;
+}
+.titulo
+{
+color:#fff;
+text-transform: uppercase;
+font-weight: 500;
+letter-spacing: 1px;
+margin-bottom: 20px;
+}
+
+.contacto ul
+{
+    position: relative;
+}
+.contacto ul li
+{
+ position:relative;
+ list-style: none;
+ margin: 10px 0;
+ cursor:pointer;
+
+}
+
+.contacto ul li .material-symbols-outlined
+{
+ display: inline-block;
+ width: 30px;
+ font-size: 18px;
+ color:rgb(200, 166, 211);
+}
+.contacto ul li span
+{
+    color: #fff;
+
+}
+
+
+.educacion li
+{
+  margin-bottom: 15px;
+}
+.educacion h5
+{
+  color: #897acc;
+  font-weight: 800;
+}
+.educacion h4
+{
+    color: #fff;
+    font-weight: 500;
+}
+
+.texto3
+{
+    color: #fff;
+}
+
+.lenguaje .porcentaje
+{
+
+ position: relative;
+ width: 100%;
+ height: 6px;
+ background: #2c2a2a;
+ display: block;
+margin-top: 5px;
+}
+
+.lenguaje .porcentaje div
+{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    background: #897acc;
+}
+
+
+.about
+{
+  margin-bottom: 55px;
+}
+.about:last-child
+{
+  margin-bottom: 0;
+}
+.title2
+{
+  color:#040446;
+  text-transform: uppercase;
+  letter-spacing:1px;
+  margin-bottom:10px;
+  
+}
+p
+{
+ color:#07065f;
+  
+}
+.about .box
+{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+
+}
+.about .box .anio_trabajo
+{
+  min-width: 150px;
+
+}
+.about .box .anio_trabajo h5
+{
+  text-transform: uppercase;
+  color: #525183;
+  font-weight: 500;
+}
+.about .box .texto2 h4
+{
+  text-transform: uppercase;
+  color: #07065f;
+  font-size: 16px;
+}
+.skills .box
+{
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 2fr;
+  justify-content: center;
+}
+.skills .box h4
+{
+  text-transform: uppercase;
+  color: #897acc;
+  font-weight: 500;
+}
+
+.skills .box .porcentaje1
+{
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: #2c2a2a;
+}
+.skills .box .porcentaje1 div
+{
+  position: absolute;
+  top:0;
+  left: 0;
+  height: 100%;
+  background: #0c7077;
+}
+
+
+
+
+
+
+/* btns */
+.btn {
+  margin: 0 auto 25px auto;
+  padding: 9px 12px;
+  border-radius: 0;
+  border: 2px black solid;
+  background-color: #CFC1C1;
+  transition: background .45s ease-in-out, border .45s ease-in-out, color .45s ease-in-out;
+}
+.btn:hover {
+  border: 2px #CFC1C1 solid;
+  background: black;
+  color: white;
+}
